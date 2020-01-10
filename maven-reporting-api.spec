@@ -1,6 +1,6 @@
 Name:           maven-reporting-api
 Version:        3.0
-Release:        4%{?dist}
+Release:        5%{?dist}
 # Maven-shared defines maven-reporting-api version as 3.0
 Epoch:          1
 Summary:        API to manage report generation
@@ -55,6 +55,9 @@ cp %{SOURCE1} LICENSE.txt
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:3.0-5
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1:3.0-4
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
